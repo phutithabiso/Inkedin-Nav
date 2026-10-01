@@ -1,26 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkedIn </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
     <div class="nav-container">
-        <nav class="navbar">
-            <div class="logo">
-               <img src="linkedin-logo.png" alt="LinkedIn Logo"><a href="#">LinkedIn</a>
-            </div>
-            <ul class="nav-links">
-                <li><icon class="nav-icon"></icon><a href="#">Home</a></li>
-                <li><icon class="nav-icon"></icon><a href="#">My Network</a></li>
-                <li><icon class="nav-icon"></icon><a href="#">Jobs</a></li>
-                <li><icon class="nav-icon"></icon><a href="#">Messaging</a></li>
-                <li><icon class="nav-icon"></icon><a href="#">Notifications</a></li>
-                <li><icon class="nav-icon"></icon><a href="#">Me</a></li>
-            </ul>
-            
-        </nav>
-   
-</body>
+      <div class="logo">
+        <img class="logo-i" src="Image/icons8-linkedin-48.png"
+          alt="LinkedIn Logo"
+        /><a href="#"></a>
+     
+        <div class="search-bar">
+          <span class="material-symbols-outlined"> search </span>
+          <input type="text" placeholder="Search" />
+        </div>
+     </div> 
+        <div class="nav-123">
+          <ul class="nav-links">
+            <li>
+              <a class="item" href="#"
+                ><span class="material-symbols-outlined">home</span> Home</a
+              >
+            </li>
+            <li>
+              <a class="item" href="#"
+                ><span class="material-symbols-outlined">group</span> My
+                Network</a
+              >
+            </li>
+            <li>
+              <a class="item" href="#"
+                ><span class="material-symbols-outlined">work</span> Jobs</a
+              >
+            </li>
+            <li>
+              <a class="item" href="#"
+                ><span class="material-symbols-outlined">chat</span>
+                Messaging</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="item">
+                <span class="material-symbols-outlined">account_circle</span>
+                <div class="me-text-wrapper">
+                  <span>Me</span>
+                  <span
+                    class="material-symbols-outlined"
+                    style="font-size: 16px; margin: 0"
+                    >arrow_drop_down</span
+                  >
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </div>
+  </body>
 </html>
